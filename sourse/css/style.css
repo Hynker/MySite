@@ -121,7 +121,7 @@ ul li {
 
 #Person_fon {
     padding: 20pt;
-    background-color: aliceblue;
+    background-color: rgb(242, 255, 240);
     opacity: .95;
 }
 
@@ -191,7 +191,7 @@ input[type="date"] {
     /* 2 */
     width: 50%;
 }
-
+/* ----------------------------------------------------------- */
 div#Admin_btn {
     text-align: center;
     padding: 10px;
@@ -203,7 +203,23 @@ div#Admin_btn {
     height: 50pt;
 }
 
-.tri_poloski {
-    font-size: 60px;
+table{
+    font-family: sans-serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: bisque;
+    color: black;
+    border: 16px solid bisque;
+    border-radius: 20px;
 
+}
+th{
+    font-size: 18px;
+    padding: 10px;
+
+}
+td{
+    background: rgb(243, 221, 165);
+    padding: 10px;
 }
