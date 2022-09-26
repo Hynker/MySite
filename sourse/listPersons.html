@@ -4,6 +4,7 @@
 <head>
     <link href="css/style.css" rel="stylesheet" />
     <meta charset="UTF-8">
+    <script src="js/createPerson.js" ></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -11,7 +12,7 @@
 
 <body>
     <div class="tablePers">
-        <table>
+        <table class="createPerson">
             <tr>
                 <th>№ польз.</th>
                 <th>ФИО</th>
@@ -40,29 +41,18 @@
                     ivannikov.pavel1@mail.ru
                 </td>
             </tr>
-            <tr>
-                <td>
-                    1
-                </td>
-                <td>
-                    Иванников Павел Андреевич
-                </td>
-                <td>
-                    01.08.2001
-                </td>
-                <td>
-                    Муж
-                </td>
-                <td>
-                    +79622639938
-                </td>
-                <td>
-                    ivannikov.pavel1@mail.ru
-                </td>
+
             </tr>
         </table>
     </div>
-    <h2 class="changeData" class="centerText"><a href="createPerson.html">Создать пользователя</a></h2>
+    <h2 class="openPopup" class="changeData" class="centerText" onclick="createPerson()">Создать пользователя</h2>
+
+    <div class="popup-bg">
+        <div class="popup">
+            <img src="image/closeIcon.png" alt="icon">
+            <p>Введите данные пользователя</p>
+        </div>
+    </div>
 </body>
 
 </html>
